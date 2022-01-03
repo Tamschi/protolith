@@ -6,6 +6,17 @@ version = 3
 name = "TODO_CRATE_NAME"
 version = "0.0.1"
 dependencies = [
+ "TODO_CRATE_NAME_proc-macro-definitions",
+ "cargo-husky",
+ "git_info",
+ "version-sync",
+ "wasm-bindgen-test",
+]
+
+[[package]]
+name = "TODO_CRATE_NAME_proc-macro-definitions"
+version = "0.0.1"
+dependencies = [
  "cargo-husky",
  "git_info",
  "version-sync",
