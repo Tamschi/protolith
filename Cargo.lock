@@ -3,27 +3,6 @@
 version = 3
 
 [[package]]
-name = "TODO_CRATE_NAME"
-version = "0.0.1"
-dependencies = [
- "TODO_CRATE_NAME_proc-macro-definitions",
- "cargo-husky",
- "git_info",
- "version-sync",
- "wasm-bindgen-test",
-]
-
-[[package]]
-name = "TODO_CRATE_NAME_proc-macro-definitions"
-version = "0.0.1"
-dependencies = [
- "cargo-husky",
- "git_info",
- "version-sync",
- "wasm-bindgen-test",
-]
-
-[[package]]
 name = "bitflags"
 version = "1.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -139,6 +118,27 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a152013215dca273577e18d2bf00fa862b89b24169fb78c4c95aeb07992c9cec"
 dependencies = [
  "unicode-xid",
+]
+
+[[package]]
+name = "protolith"
+version = "0.0.1"
+dependencies = [
+ "cargo-husky",
+ "git_info",
+ "protolith_proc-macro-definitions",
+ "version-sync",
+ "wasm-bindgen-test",
+]
+
+[[package]]
+name = "protolith_proc-macro-definitions"
+version = "0.0.1"
+dependencies = [
+ "cargo-husky",
+ "git_info",
+ "version-sync",
+ "wasm-bindgen-test",
 ]
 
 [[package]]
