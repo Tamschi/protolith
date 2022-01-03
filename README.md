@@ -4,7 +4,7 @@
 [![Crates.io](https://img.shields.io/crates/v/protolith)](https://crates.io/crates/protolith)
 [![Docs.rs](https://docs.rs/protolith/badge.svg)](https://docs.rs/protolith)
 
-![Rust 1.54](https://img.shields.io/static/v1?logo=Rust&label=&message=1.54&color=grey)
+![Rust 1.57](https://img.shields.io/static/v1?logo=Rust&label=&message=1.57&color=grey)
 [![CI](https://github.com/Tamschi/protolith/workflows/CI/badge.svg?branch=develop)](https://github.com/Tamschi/protolith/actions?query=workflow%3ACI+branch%3Adevelop)
 ![Crates.io - License](https://img.shields.io/crates/l/protolith/0.0.1)
 

@@ -44,3 +44,4 @@ wasm-bindgen-test = "0.3.28"
 
 [dependencies]
 protolith_proc-macro-definitions = { version = "0.0.1", path = "proc-macro-definitions" }
+rustversion = "1.0.6"

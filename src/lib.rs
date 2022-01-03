@@ -9,3 +9,8 @@
 #[cfg(doctest)]
 #[doc = include_str!("../README.md")]
 mod readme {}
+
+/// Exposes [`Build::EmptyBuilder`], which is [`Default`].
+pub trait Build {
+	type EmptyBuilder: Default;
+}
